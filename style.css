@@ -1,0 +1,36 @@
+body {
+    font: 1rem Helvetica 
+}
+
+.hidden {
+    display: none
+}
+.shown {
+    display: block
+}
+
+.card {
+    display: flex;
+    background: rgb(174, 218, 247);
+    border-radius: 8px;
+    align-items: center;
+    padding: 5px;
+    margin: 5px
+
+}
+
+.card div {
+    font-size: 20pt;
+    padding: 20px;
+    background: rgb(147, 205, 243);
+    border-radius: 8px;
+    background: -webkit-radial-gradient(rgb(233, 236, 240),rgb(100, 145, 197))
+}
+
+.card ul {
+    margin: 0
+}
+
+#result {
+    margin: 0 5%
+}
